@@ -19,7 +19,7 @@ Convenience crate for working with Web Workers
     <a href="https://discordapp.com/channels/44/44">Chat</a>
   </h3>
 
-  <sub>Built with 🦀🕸 by <a href="https://rustwasm.github.io/">The Rust and WebAssembly Working Group</a></sub>
+  <sub>Built with 🦀🕸 by <a href="https://rustwasm.iana.io/">IanaIO The Rust and WebAssembly Working Group</a></sub>
 </div>
 
 IanaIO workers are a way to offload tasks to web workers. These are run concurrently using
