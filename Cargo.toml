@@ -1,0 +1,27 @@
+[package]
+name = "ianaio-worker-macros"
+version = "0.1.0"
+authors = ["Jaroslaw Cichon <dev@iana.io>"]
+edition = "2021"
+readme = "README.md"
+description = "Convenience crate for working with Web Workers"
+repository = "https://github.com/ianaio/ianaio-worker-macros"
+homepage = "https://www.iana.io/rustwasm/"
+license-file = "LICENSE.txt"
+categories = ["api-bindings", "asynchronous", "wasm"]
+rust-version = "rustc 1.80.0-nightly"
+documentation = "https://docs.iana.io/website"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro-crate = "1.2.1"
+proc-macro2 = "1.0.47"
+quote = "1.0.21"
+syn = { version = "2.0.15", features = ["full"] }
+
+[dev-dependencies]
+trybuild = "1"
+ianadotio = { path = "../..", features = ["futures"] }
+
