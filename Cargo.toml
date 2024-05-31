@@ -1,7 +1,7 @@
 [package]
 name = "ianaio-worker-macros"
 version = "0.1.0"
-authors = ["Jaroslaw Cichon <dev@iana.io>"]
+authors = ["Jaroslaw Cichon <dev.iana.io> IanaIO Rust and WebAssembly Working Group"]
 edition = "2021"
 readme = "README.md"
 description = "Convenience crate for working with Web Workers"
