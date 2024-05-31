@@ -6,11 +6,11 @@ edition = "2021"
 readme = "README.md"
 description = "Convenience crate for working with Web Workers"
 repository = "https://github.com/ianaio/worker-macros"
-homepage = "https://www.iana.io/rustwasm/"
+homepage = "https://rustwasm.iana.io/worker-macros/"
 license-file = "LICENSE.txt"
 categories = ["api-bindings", "asynchronous", "wasm"]
 rust-version = "1.80"
-documentation = "https://docs.iana.io/website"
+documentation = "https://docs.iana.io/rustwasm/worker-macros"
 
 [lib]
 proc-macro = true
