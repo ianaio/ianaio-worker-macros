@@ -23,5 +23,5 @@ syn = { version = "2.0.15", features = ["full"] }
 
 [dev-dependencies]
 trybuild = "1"
-ianaio = { path = "../..", features = ["futures"] }
+ianaio = { version = "0.1.1", path = "../..", features = ["futures"] }
 
